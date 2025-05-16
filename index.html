@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Web Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <label class="theme-toggle">
+        <input type="checkbox" id="theme-switch"> Dark Mode
+      </label>
+      
+    <h3>History</h3>
+<ul id="history"></ul>
+
+    <input type="text" id="display" disabled>
+    <div class="buttons">
+      <button>7</button><button>8</button><button>9</button><button>/</button>
+      <button>4</button><button>5</button><button>6</button><button>*</button>
+      <button>1</button><button>2</button><button>3</button><button>-</button>
+      <button>0</button><button>.</button><button>=</button><button>+</button>
+      <button id="clear"><b>C</b></button>
+    </div>
+    
+<div class="scientific-buttons">
+    <button>sin</button><button>cos</button><button>tan</button><button>√</button>
+    <button>x²</button>
+  </div>
+  
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
